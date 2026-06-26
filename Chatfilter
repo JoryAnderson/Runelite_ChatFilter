@@ -93,7 +93,7 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+\w+.*\d+\s*[mb].*paying\s+more\s+than\s+average\s+market\s+rate
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
-(?# Buying specific items) (WIP)
+(?# Buying specific items - WIP)
 (?i)^(buy|sell)(ing)?(?! your| the) ?[\w ]{1,10}(tumeken(s?)|tumenken['s]?|ely|shadow(s?)|scythe(s?)|vitur|tbow(s?)|twisted bow(s?)|inquis|inquisitor(s|'s)?|sigil(s?))+\W*?(?<!\?)\b($|.*?(\d+[gkmb]|([A-z0-9]{1,} mill| bill))(\W*$| each| ea))
 ### (?i)^(buy|sell)(ing)?.*?(burnt|burned|burning|crushed|fossilized|unwanted|unneeded|broken) *?(gems|food|rubble|dung)
 
@@ -157,6 +157,7 @@ trade.*?accepted.*?with.*?for
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 (?i).*actually( super)? clean and( super)? (active|rewarding|fun)
+(?i).*Hey everyone, I just tried to do something very silly!
 
 (?# Specific adverts)
 (?i).*?discord\.gg.*?gold.*
@@ -220,6 +221,7 @@ trade.*?accepted.*?with.*?for
 (?i)[0-9\.](.*?\/.*?)?u\ss\sd\s?\/\s?m
 \d\d:\d\d:\d\d
 \d:\d:\d
+^[ ]+$
 [Ïï]
 [åâàáÅäÁåä]
 [ÓóÕðÔôðõÖöÒò]
