@@ -157,7 +157,7 @@ trade.*?accepted.*?with.*?for
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 (?i).*actually( super)? clean and( super)? (active|rewarding|fun)
-(?i).+?I just tried to do something very silly!.+
+(?i).+?I just tried to do something very silly!.+$
 
 (?# Specific adverts)
 (?i).*?discord\.gg.*?gold.*
@@ -210,6 +210,7 @@ trade.*?accepted.*?with.*?for
 (?i)infernalz
 (?i)i( *)?k( *)?o( *)?v( *)?.*rsps
 (?i)(to|play|join|on|ing) i( *)?k( *)?o( *)?v( *)?
+(?i)Onlyfans.*(l|\|).+pog
 
 (?# Botted player warnings)
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
